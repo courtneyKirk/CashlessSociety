@@ -25,8 +25,10 @@ public class CameraMovement : MonoBehaviour
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
+    public float stepRate = 0.4f;
+    public float stepCoolDown;
 
-    
+
     void OnEnable()
     {
         // Cache our starting orientation as our center point.
@@ -82,6 +84,14 @@ public class CameraMovement : MonoBehaviour
         moveDirection.y -= gravity * Time.deltaTime;
         //Making the character move
         controller.Move(moveDirection * Time.deltaTime);
+
+        //Footstep SFX
+        stepCoolDown -= Time.deltaTime;
+        if ((Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f) && stepCoolDown < 0f && controller.isGrounded)
+        {
+            AkSoundEngine.PostEvent("PlayerFootsteps", gameObject);
+            stepCoolDown = stepRate;
+        }
 
     }
 

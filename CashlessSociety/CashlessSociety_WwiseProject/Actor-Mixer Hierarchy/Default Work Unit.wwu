@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE33321D-0BC0-48F0-B9AF-D602510C2DD0}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FE33321D-0BC0-48F0-B9AF-D602510C2DD0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Character" ID="{C998E2DF-D8D0-4D29-80B5-AFEF41EBFAB8}" ShortID="75341160">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Footsteps" ID="{836807E8-AE98-4D5A-945B-825B915D53A5}" ShortID="306071457">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC62E4FC-6420-4387-8FAC-CD8387A3CC8E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52C9DFF5-EEEB-4F08-95EE-6A84CE940B6B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wooden Footstep 1" ID="{1B55FCB0-B378-4E1E-BF15-3BC0E84703DE}" ShortID="173862093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC62E4FC-6420-4387-8FAC-CD8387A3CC8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52C9DFF5-EEEB-4F08-95EE-6A84CE940B6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wooden Footstep 1" ID="{B0DE106D-A351-4B84-ACAF-255BAEC2DC25}" ShortID="447113813">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Wooden Footstep 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wooden Footstep 1" ID="{B0DE106D-A351-4B84-ACAF-255BAEC2DC25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wooden Footstep 2" ID="{6FE6BC18-4AF3-41D3-B11C-9179625078D1}" ShortID="173605548">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC62E4FC-6420-4387-8FAC-CD8387A3CC8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52C9DFF5-EEEB-4F08-95EE-6A84CE940B6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wooden Footstep 2" ID="{1D9EB386-AC78-4F95-90A4-1E42C7B7CE47}" ShortID="198100383">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Wooden Footstep 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wooden Footstep 2" ID="{1D9EB386-AC78-4F95-90A4-1E42C7B7CE47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wooden Footstep 3" ID="{7DE2B126-F71D-4A9B-BF1D-677E787E2109}" ShortID="913809467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC62E4FC-6420-4387-8FAC-CD8387A3CC8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52C9DFF5-EEEB-4F08-95EE-6A84CE940B6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wooden Footstep 3" ID="{B628CF8D-FE4C-4395-A08D-02FC45229521}" ShortID="304038197">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Wooden Footstep 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wooden Footstep 3" ID="{B628CF8D-FE4C-4395-A08D-02FC45229521}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wooden Footstep 4" ID="{B51E1A45-F930-428A-9813-2EDBB93B0D96}" ShortID="806438081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC62E4FC-6420-4387-8FAC-CD8387A3CC8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52C9DFF5-EEEB-4F08-95EE-6A84CE940B6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wooden Footstep 4" ID="{D781268C-EB54-46CC-8A13-12049918AD22}" ShortID="907601322">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Wooden Footstep 4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wooden Footstep 4" ID="{D781268C-EB54-46CC-8A13-12049918AD22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wooden Footstep 5" ID="{D57F331F-A542-468E-ACBF-AB5E17DFC2D5}" ShortID="667694909">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC62E4FC-6420-4387-8FAC-CD8387A3CC8E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52C9DFF5-EEEB-4F08-95EE-6A84CE940B6B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wooden Footstep 5" ID="{F6699932-822D-48C4-B947-03CB53522A6F}" ShortID="92242668">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps\Wooden Footstep 5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wooden Footstep 5" ID="{F6699932-822D-48C4-B947-03CB53522A6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

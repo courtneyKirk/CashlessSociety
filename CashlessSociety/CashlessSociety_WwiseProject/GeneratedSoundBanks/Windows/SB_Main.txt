@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1681012287	PlayerFootsteps			\Default Work Unit\Character\PlayerFootsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	92242668	Wooden Footstep 5	D:\Documents\GitHub\CashlessSociety\CashlessSociety\CashlessSociety_WwiseProject\.cache\Windows\SFX\Footsteps\Wooden Footstep 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wooden Footstep 5		88264
+	198100383	Wooden Footstep 2	D:\Documents\GitHub\CashlessSociety\CashlessSociety\CashlessSociety_WwiseProject\.cache\Windows\SFX\Footsteps\Wooden Footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wooden Footstep 2		88264
+	304038197	Wooden Footstep 3	D:\Documents\GitHub\CashlessSociety\CashlessSociety\CashlessSociety_WwiseProject\.cache\Windows\SFX\Footsteps\Wooden Footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wooden Footstep 3		88264
+	447113813	Wooden Footstep 1	D:\Documents\GitHub\CashlessSociety\CashlessSociety\CashlessSociety_WwiseProject\.cache\Windows\SFX\Footsteps\Wooden Footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wooden Footstep 1		88264
+	907601322	Wooden Footstep 4	D:\Documents\GitHub\CashlessSociety\CashlessSociety\CashlessSociety_WwiseProject\.cache\Windows\SFX\Footsteps\Wooden Footstep 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Wooden Footstep 4		88264
+

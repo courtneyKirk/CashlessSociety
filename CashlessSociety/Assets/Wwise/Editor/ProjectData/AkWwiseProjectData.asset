@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e140e47f277162448b468bcce044ac4a, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 257ff7d8da040f4f81bbb4062b4af810
+    GuidInternal: 
+    m_lastTime: -8586205229407139377
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f5dfc952ebee084f95ee6a84ce940b6b
+    GuidInternal: 
+    m_lastTime: -8586205229408096741
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ddc7db1e6f2eaf41921cd516c1bbd15b
+    GuidInternal: 
+    m_lastTime: -8586205220507931564
+    List:
+    - name: SB_Main
+      guid: bf9c6e876be83e48a3725a9fe6afa835
+      id: 152968626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SB_Main
+        ObjectType: 7
+      Path: Default Work Unit\SB_Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f83b7a861e12ee42a13b942b2555604f
+    GuidInternal: 
+    m_lastTime: -8586205220507792248
+    List:
+    - name: Player_Footsteps
+      guid: 85fe3dbcd30c0b43a396b3ea2f41532d
+      id: 1730208058
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 4
+      - ElementName: Player_Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Character\Player_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5323f57e5b6f96408d8b5197c25165ae
+    GuidInternal: 
+    m_lastTime: -8586205229406770393
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 34204d149623844794118e5948db4601
+    GuidInternal: 
+    m_lastTime: -8586205229407787663
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f7cc07f5f6d62244926b5f84074a8783
+    GuidInternal: 
+    m_lastTime: -8586205229407947234
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 20061fb0b84db8448cddf902ace1a405
+    GuidInternal: 
+    m_lastTime: -8586205229407229154
+    List: []
+  ExpandedItems:
+  - /CashlessSociety_WwiseProject
+  - /CashlessSociety_WwiseProject/Events
+  - /CashlessSociety_WwiseProject/Events/Default Work Unit
+  - /CashlessSociety_WwiseProject/Events/Default Work Unit/Character
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
